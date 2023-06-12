@@ -18,7 +18,7 @@ datasets:
     path: CHANGEME_path_to_training_dataset
     fetcher_mode: ['lj'] # CHANGEME if your dataset isn't in LJSpeech format
     phase: train
-    max_wav_length: 255995
+    max_wav_length: 511990
     max_text_length: 200
     sample_rate: 48000
     load_conditioning: True
@@ -34,7 +34,7 @@ datasets:
     path: CHANGEME_path_to_validation_dataset
     fetcher_mode: ['lj']
     phase: val # might be broken idk
-    max_wav_length: 255995
+    max_wav_length: 511990
     max_text_length: 200
     sample_rate: 48000
     load_conditioning: True
